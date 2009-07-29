@@ -1,0 +1,7 @@
+category: Ruby
+requires: ruby
+sdesc: "Ruby localization library"
+ldesc: "Ruby-Locale is a pure ruby library which provides basic APIs for 
+localization. It aims to support all environments and all kind of 
+i18n/l10n programs, and becomes the hub of other i18n/l10n programs to 
+handle major locale ID standards."
