@@ -1,8 +1,0 @@
-inherit ruby
-
-DESCRIPTION="Ruby NLS module"
-HOMEPAGE="http://www.yotabanana.com/hiki/ruby-locale.html"
-SRC_URI="mirror://rubyforge/locale/${P}.tar.gz"
-
-RDOC_SOURCE="lib"
-RDOC_MODULE="Locale"
