@@ -3,3 +3,5 @@ inherit rubygem
 
 DESCRIPTION="Ruby-Locale is the pure ruby library which provides basic APIs
 for localization."
+
+PATCH_URI="01-cygwin.patch"

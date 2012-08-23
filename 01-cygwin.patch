@@ -1,0 +1,11 @@
+--- origsrc/locale-2.0.5/lib/locale.rb	2012-08-23 03:03:41.448241800 -0500
++++ src/locale-2.0.5/lib/locale.rb	2012-08-23 03:04:34.696287400 -0500
+@@ -70,7 +70,7 @@ module Locale
+     if opts[:driver]
+       require_driver opts[:driver]
+     else
+-      if /cygwin|mingw|win32/ =~ RUBY_PLATFORM
++      if /mingw|win32/ =~ RUBY_PLATFORM
+         require_driver 'win32' 
+       elsif /java/ =~ RUBY_PLATFORM
+         require_driver 'jruby' 
