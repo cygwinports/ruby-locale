@@ -1,6 +1,10 @@
 inherit rubygem
 
-
+NAME="ruby-locale"
+VERSION=2.0.8
+RELEASE=1
+CATEGORY="Ruby"
+SUMMARY="Pure Ruby localization library"
 DESCRIPTION="Ruby-Locale is the pure ruby library which provides basic APIs
 for localization."
 
