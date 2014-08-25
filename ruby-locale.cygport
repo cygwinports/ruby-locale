@@ -1,7 +1,7 @@
 inherit rubygem
 
 NAME="ruby-locale"
-VERSION=2.0.8
+VERSION=2.1.0
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Pure Ruby localization library"
@@ -9,3 +9,9 @@ DESCRIPTION="Ruby-Locale is the pure ruby library which provides basic APIs
 for localization."
 
 PATCH_URI="01-cygwin.patch"
+
+ARCH=noarch
+
+PKG_NAMES="${NAME} ${NAME}-doc"
+ruby_locale_CONTENTS="--exclude=samples ${RUBYGEM_INSTDIR#/} ${RUBYGEM_SPEC#/}"
+ruby_locale_doc_CONTENTS="${RUBYGEM_DOCDIR#/} ${RUBYGEM_INSTDIR#/}/samples/"
