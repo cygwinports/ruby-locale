@@ -1,7 +1,7 @@
 inherit rubygem
 
 NAME="ruby-locale"
-VERSION=2.1.0
+VERSION=2.1.2
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Pure Ruby localization library"
